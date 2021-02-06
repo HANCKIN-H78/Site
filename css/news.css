@@ -13,6 +13,7 @@ body{
 .topo-pagina {
   background-image: linear-gradient(180deg,black,#44523fd8,rgb(243, 235, 235) 50%,#44523fd8,black);
   margin-top: -50px;
+
 }
 
 .login-area{
@@ -97,6 +98,7 @@ body{
 .menu {
   background-color: black;
   margin-top: -20px;
+  margin-bottom: -10px;
   padding-top: 12px;
   padding-bottom: 17px;
   text-decoration: none;
@@ -135,4 +137,112 @@ body{
   text-decoration: none;
   color: #00ff00;
   border: white solid 3px;
+}
+
+.content{
+  background-color: #000000;
+  padding-top: 50px;
+}
+
+.terminal{
+  color: #2cd32c;
+}
+.terminal-aba{
+background-color: #504b4b;
+
+}
+.terminal-1 {
+  border: white 1px solid;
+  float: right;
+  cursor: pointer;
+}
+.terminal-2 {
+  border: white 1px solid;
+  float: right;
+  margin: 0 1% 0 1%;
+  cursor: pointer;
+}
+.terminal-1:hover {
+  border: white 1px solid;
+  float: right;
+  cursor: pointer;
+  background-color: thistle;
+}
+.terminal-2:hover {
+  border: white 1px solid;
+  float: right;
+  margin: 0 1% 0 1%;
+  cursor: pointer;
+  background-color: thistle;
+}
+.terminal-aba1{ color: white;}
+
+.hide-link{
+  color: #2cd32c;
+  text-decoration: none;
+}
+
+.news-area {
+  padding-bottom: 10px;
+}
+
+.news-area h1{
+  color: white;
+  text-align: center;
+  background-image: url(/img/index2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  text-shadow: 3px 3px black;
+}
+
+.news-section{
+  padding-left: 4%;
+  padding-right: 4%;
+  background-image: url(/img/index.jpeg);
+  margin: 0 20% 2% 20%;
+  padding-top: 3%;
+}
+
+.news-section h2{
+  color: #2cd32c;
+  text-decoration: underline;
+}
+
+.borda {
+  margin-bottom: 20px;
+  border: black solid 5px;
+  padding: 15px;
+  background-color: black;
+  color: #2cd32c;
+  padding: 10px 10px -40px 10px;
+}
+
+
+.img-news{
+  width: 100%;
+  border-radius: 3%;
+  border: solid #2cd32c 1px;
+}
+
+.news-text{
+  background-color: black;
+  color: #2cd32c;
+  padding: 10px;
+}
+
+
+.link{
+  text-decoration: none;
+}
+
+footer{
+  background-color: black;
+  padding: 5px;
+  color: #2cd32c;
+}
+
+.texto-footer{
+  text-align: center;
+  color: white;
 }
