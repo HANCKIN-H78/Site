@@ -16,7 +16,27 @@
 </head>
 <body>
 
-    
+        
+        <section class="login-area">
+
+            <img src="/img/logo.png" alt="logo" class="logo" width="300px">
+            <br>
+            <label class="email-text">E-mail:</label>
+            <br>
+            <input type="text" class="email" placeholder="exemplo@email.com">
+            <br>
+            <label class="senha-text">Senha:</label>
+            <br>
+            <input type="password" class="senha" placeholder="********">
+            <br>
+            <input type="submit" value="Login" class="btn-login">
+            
+            <br>
+            <br>
+            <a href="/newUser.php" class="link-conta">Criar uma conta</a> 
+
+        </section>
+
 
 
 </body>

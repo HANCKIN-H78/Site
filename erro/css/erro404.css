@@ -79,6 +79,7 @@ body{
 .content{
   background-color: #000000;
   padding-top: 50px;
+  padding-bottom: 7%;
 }
 
 .terminal{
@@ -119,33 +120,6 @@ background-color: #504b4b;
   text-decoration: none;
 }
 
-.news-area {
-  padding-bottom: 10px;
-}
-
-.news-area h1{
-  color: white;
-  text-align: center;
-  background-image: url(/img/index2.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 30%;
-  text-shadow: 3px 3px black;
-}
-
-.news-section{
-  padding-left: 4%;
-  padding-right: 4%;
-  background-image: url(/img/index.jpeg);
-  margin: 0 20% 2% 20%;
-  padding-top: 3%;
-}
-
-.news-section h2{
-  color: #2cd32c;
-  text-decoration: underline;
-}
-
 .borda {
   margin-bottom: 20px;
   border: black solid 5px;
@@ -155,22 +129,12 @@ background-color: #504b4b;
   padding: 10px 10px -40px 10px;
 }
 
-
-.img-news{
-  width: 100%;
-  border-radius: 3%;
-  border: solid #2cd32c 1px;
+.erro-area {
+  margin: 10%;
 }
 
-.news-text{
-  background-color: black;
-  color: #2cd32c;
-  padding: 10px;
-}
-
-
-.link{
-  text-decoration: none;
+.erro {
+  color: #00ff00;
 }
 
 footer{
@@ -182,44 +146,4 @@ footer{
 .texto-footer{
   text-align: center;
   color: white;
-}
-
-#divBusca{
-  background-color:#2F4F4F;
-  border:solid 1px;
-  border-radius:15px;
-  width: 99%;
-  height: 30px;
-  border: #00ff00 solid 1px;
-}
-
-#txtBusca{
-  float:left;
-  background-color:transparent;
-  padding-left:5px;
-  font-style:italic;
-  font-size:18px;
-  border:none;
-  height:30px;
-  width:300px;
-  color: #00ff00;
-}
-
-.btn-search{
-  margin-left: 40%;
-  border: #00ff00 solid 2px;
-  padding: 4px 3%;
-  border-radius: 50px;
-}
-
-.paginas a{
-  background-color: #000000;
-  margin: -1% 5px;
-  border: #00ff00 2px solid;
-  padding: 5px;
-  text-decoration: none;
-  color: #00ff00;
-}
-.paginas {
-  margin-left: 9%;
 }

@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'P2';
+    src: url(/font/PressStart2P-Regular.ttf);
+  }
+
+body{
+    font-family: 'P2';
+    width: 100%;
+    margin: 0;
+    background: url(/img/backgroundLogin.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.formulario{
+  color:#2cd32c;
+  background-color: rgba(0, 0, 0, 0.836);
+  border-radius: 30px;
+}
+
+.area-formulario{
+  border: #0edf0e solid 3px;
+  background-color: rgba(0, 0, 0, 0.836);
+  margin: 5% 25% 10% 25%;
+  border-radius: 30px;
+}
+
+.area-formulario h2{
+  text-align: center;
+  color:#ffffff;
+
+}
+.area-formulario p{
+  text-align: center;
+  color:#ffffff;
+
+}
+
+.obs{
+  font-size: 14px;
+}
+
+.texto-nome{
+  margin-left: 15%;
+}
+
+.nome{
+  margin: 2% 22% 0 22%;
+  border-radius: 20px;
+  border: #2cd32c 1px solid;
+}
+
+.texto-email{
+  margin-left: 15%;
+}
+
+.email{
+  margin: 2% 22%;
+  border-radius: 20px;
+  border: #2cd32c 1px solid;
+}
+
+.texto-senha{
+  margin-left: 15%;
+}
+
+.senha{
+  margin: 2% 22%;
+  border-radius: 20px;
+  border: #2cd32c 1px solid;
+}
+
+.texto-repete{
+  margin-left: 15%;
+}
+
+.repetir-senha{
+  margin: 2% 22%;
+  border-radius: 20px;
+  border: #2cd32c 1px solid;
+}
+
+.enviar{
+  margin: 8% 30%;
+  color: #000000;
+  border: #0edf0e solid 2px;
+  border-radius: 5px;
+  background-color: #d3d4d3;
+  font-family: 'P2';
+  padding: 2px;
+}
+
+footer{
+  background-color: black;
+  padding: 5px;
+  margin-top: -5%;
+  color: #2cd32c;
+}
+
+.texto-footer{
+  text-align: center;
+  color: white;
+}
+
+.fa-user{
+  color: #0edf0e;
+}
